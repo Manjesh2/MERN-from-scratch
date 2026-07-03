@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+    margin: 0 auto 0 auto
+}
+
+#increment-btn{
+    background: darkred;
+    cursor: pointer;
+}
+#save-btn:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+#increment-btn:active{
+    box-shadow: 0 2px #666;
+    transform: translateX(4px);
+}
+#save-btn{
+    background-color: darkgreen;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#save-el{
+    font-weight: bold;
+    font-size: large;
+}
